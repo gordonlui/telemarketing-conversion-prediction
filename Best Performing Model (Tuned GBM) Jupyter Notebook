@@ -5,7 +5,7 @@
    "id": "c342e681",
    "metadata": {},
    "source": [
-    "# **Assignment 2 Best Performing Model**"
+    "# **Best Performing Model (Tuned GBM)**"
    ]
   },
   {
@@ -38,8 +38,8 @@
    "outputs": [],
    "source": [
     "# Define training and test data filepaths\n",
-    "train_filepath = '../aad2/datasets/train.csv'\n",
-    "test_filepath = '../aad2/datasets/test.csv'"
+    "train_filepath = '../datasets/train.csv'\n",
+    "test_filepath = '../datasets/test.csv'"
    ]
   },
   {
