@@ -2,9 +2,15 @@
 
 ## Overview
 
-This project predicts whether a customer will subscribe to a term deposit following a telemarketing campaign. The final solution uses a tuned **Gradient Boosting Machine (GBM)** model combined with extensive data cleaning, feature engineering, and threshold optimization.
+## Overview
 
-The model achieved an **F1 Score of 0.69814** on the public leaderboard, representing a **28.9% improvement** over the benchmark score of **0.54150**.
+This project predicts whether a customer will subscribe to a term deposit following a telemarketing campaign using machine learning techniques. The solution was developed as an end-to-end predictive modelling pipeline, covering data cleaning, feature engineering, model development, hyperparameter tuning, and threshold optimisation.
+
+The project was implemented in Python with a strong focus on code quality and reproducibility. All preprocessing, feature engineering, modelling, and prediction workflows were modularised into reusable functions with comprehensive docstrings. Exception handling and validation tests were incorporated throughout the pipeline to detect data inconsistencies, verify transformations, and improve robustness when working with new datasets.
+
+After preprocessing the training and test datasets, several feature engineering techniques were applied, including occupation binning, creation of average call duration metrics, cyclical encoding of date variables, one-hot encoding, log transformations, and feature scaling. Multiple machine learning algorithms were evaluated, including Logistic Regression, Decision Trees, Random Forests, Neural Networks, and Gradient Boosting Machines (GBM).
+
+The final model was a tuned GBM with an optimised classification threshold obtained through repeated stratified K-fold cross-validation. The model achieved an **F1 score of 0.69814** on the public leaderboard, representing a **28.9% improvement** over the benchmark score of **0.54150**. Beyond predictive performance, the project demonstrates best practices in data validation, testing, documentation, and production-ready machine learning development.
 
 ---
 
