@@ -262,21 +262,11 @@ it achieved the strongest validation and leaderboard performance.
 ## Repository Structure
 
 ```text
-├── data/
-│   ├── train.csv
-│   └── test.csv
-├── notebooks/
-│   └── modelling.ipynb
-├── src/
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   ├── train_model.py
-│   └── predict.py
-├── outputs/
-│   ├── submissions/
-│   └── figures/
-├── README.md
-└── requirements.txt
+├── train.csv # Training dataset
+├── test.csv # Test dataset
+├── Best Performing Model (Tuned GBM).ipynb # End-to-end modelling pipeline
+├── Best Performing Model (Tuned GBM).pdf # Exported report of results
+└── README.md
 ```
 
 ---
