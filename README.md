@@ -167,31 +167,31 @@ l2_regularization = 20
 threshold = 0.342
 ```
 
-The threshold was tuned using repeated stratified K-fold cross-validation to maximise F1 score.
+The threshold was tuned using repeated stratified K-fold cross-validation to maximise F1 score
 
 ---
 
 ## Model Comparison
 
 ### Logistic Regression
-- Underfit the dataset.
-- Lower training and validation F1 scores.
+- Underfit the dataset
+- Lower training and validation F1 scores
 
 ### Decision Tree
-- Insufficient complexity to capture nonlinear relationships.
+- Insufficient complexity to capture nonlinear relationships
 
 ### Random Forest
-- Strong performance.
-- Higher precision but lower recall than GBM.
+- Strong performance
+- Higher precision but lower recall than GBM
 
 ### Neural Network
-- Promising results.
-- Computationally expensive and difficult to tune within project constraints.
+- Promising results
+- Computationally expensive and difficult to tune within project constraints
 
 ### Gradient Boosting Machine (GBM)
-- Best overall F1 score.
-- Superior balance between precision and recall.
-- Sequential learning improved identification of positive cases.
+- Best overall F1 score
+- Superior balance between precision and recall
+- Sequential learning improved identification of positive cases
 
 ---
 
@@ -243,9 +243,9 @@ which is considerably deeper than the weak learners traditionally used in boosti
 
 Possible explanations include:
 
-- Complex nonlinear relationships between variables.
-- Large feature space.
-- Most feature selection techniques reduced predictive performance.
+- Complex nonlinear relationships between variables
+- Large feature space
+- Most feature selection techniques reduced predictive performance
 
 Although the final model exhibited slight overfitting:
 
@@ -294,18 +294,15 @@ it achieved the strongest validation and leaderboard performance.
 
 ## Future Improvements
 
-- Explore advanced neural network architectures.
+- Explore advanced neural network architectures
 - Compare with:
   - XGBoost
   - LightGBM
-  - CatBoost
-- Investigate automated feature selection techniques.
-- Build ensemble models to further improve predictive performance.
+- Investigate automated feature selection techniques
+- Build ensemble models to further improve predictive performance
 
 ---
 
 ## Author
 
 **Gordon Lui**
-
-Actuarial Science & Data Analytics Portfolio
